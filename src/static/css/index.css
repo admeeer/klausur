@@ -1,0 +1,62 @@
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 25px;
+    border: solid 2px white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center-screen-box {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+input[type="text"] {
+    font-family: 'Courier New', monospace;
+    border-bottom: solid 1px white;
+    font-size: 12.5px;
+
+}
+
+input[type="submit"] {
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+

@@ -1,0 +1,14 @@
+#result {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}

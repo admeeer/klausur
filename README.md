@@ -1,2 +1,2 @@
 # klausur
-A brutalist testing platform.
+A simple quiz provider.

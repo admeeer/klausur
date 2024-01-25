@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 resultElement.className = 'correct';
                 resultElement.textContent = '☑';
                 setTimeout(function() {
-                    window.location.href = '/portal/'; 
+                    window.location.href = 'static/portal/'; 
                 }, 3000);
             } else {
                 resultElement.className = 'incorrect';

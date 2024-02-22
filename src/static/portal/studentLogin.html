@@ -1,21 +1,20 @@
-<!-- static/porta/studentLogin.html -->
+<!-- static/portal/studentLogin.html -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>Quizzler</title>
-    <link rel="stylesheet" type="text/css" href="static/css/index.css">
-    <link rel="stylesheet" type="text/css" href="static/css/result.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
     <div class="center-screen">
-        <form id="pinForm">
-            <h1 id="title">quizzler</h1>
+        <form id="connectForm">
+            <h1 id="title">quizzler student</h1>
             <div class="center-screen-box">
-                <button id="StudentButton" class="StudentButton">student</button>
+                <input type="text" id="pin" name="pin" pattern="\d{6}" required placeholder="game pin">
                 <br>
-                <button id="TeacherButton" class="TeacherButton">teacher</button>
+                <button id="GoButton" class="GoButton">Gehen!</button>
+            </form>
             </div>
-        </form>
     </div>
 </body>
 </html>

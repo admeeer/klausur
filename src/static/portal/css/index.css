@@ -31,10 +31,34 @@
     display: inline-block;
     justify-content: center;
     align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: 700;
+    width: 20vw;
+    margin-top: 25px;
+    font-size: 50px;
+    margin: auto;
     text-align: center;
 }
 
-.StudentButton {
+#pin::placeholder {
+    font-size: 50px;
+    
+}
+
+.GoButton {
     background-color: black;
     font-family: 'Raleway', sans-serif;
     cursor: pointer;
@@ -42,18 +66,6 @@
     font-size: 50px;
     font-weight: 700;
     color: white;
-    border: none;
-    width: 20vw;
-}
-
-.TeacherButton {
-    background-color: white;
-    font-family: 'Raleway', sans-serif;
-    cursor: pointer;
-    margin-top: 25px;
-    font-size: 50px;
-    font-weight: 700;
-    color: black;
     border: none;
     width: 20vw;
 }

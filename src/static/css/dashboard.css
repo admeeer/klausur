@@ -5,26 +5,19 @@
     height: 100vh;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
-    animation: colorchange 10s infinite;
+   /* animation: colorchange 10s infinite;
     animation-timing-function: linear;
-    color: white;
+    color: white;*/
 }
 
-@keyframes colorchange {
-    0% {background: red;}
-    20% {background: orange;}
-    40% {background: yellow;}
-    60% {background: green;}
-    80% {background: blue;}
-    100% {background: purple;}
-}
-
-#title{
+.title{
     font-family: 'Raleway', sans-serif;
     font-size: 100px;
     background: linear-gradient(to right, white 50%, black 50%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 .center-screen-box {
@@ -58,21 +51,7 @@
     width: 20vw;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    animation: colorchange 10s infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes colorchange {
-    0% {background: red;}
-    20% {background: orange;}
-    40% {background: yellow;}
-    60% {background: green;}
-    80% {background: blue;}
-    100% {background: purple;}
+html {
+    background-color: grey;
 }
 

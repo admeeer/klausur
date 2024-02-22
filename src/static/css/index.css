@@ -5,14 +5,26 @@
     height: 100vh;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
-    background-color: black;
+    animation: colorchange 10s infinite;
+    animation-timing-function: linear;
     color: white;
+}
+
+@keyframes colorchange {
+    0% {background: red;}
+    20% {background: orange;}
+    40% {background: yellow;}
+    60% {background: green;}
+    80% {background: blue;}
+    100% {background: purple;}
 }
 
 #title{
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
-    color: white;
+    font-size: 100px;
+    background: linear-gradient(to right, white 50%, black 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 form {
@@ -20,9 +32,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
     padding: 25px;
-    border: solid 2px white;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -32,25 +42,28 @@ form {
     align-items: center;
 }
 
-input{
+.StudentButton {
     background-color: black;
-    color: white;
-    border: none;
-    font-weight: 700;
-}
-
-input[type="text"] {
-    font-family: 'Courier New', monospace;
-    border-bottom: solid 1px white;
-    font-size: 12.5px;
-
-}
-
-input[type="submit"] {
     font-family: 'Raleway', sans-serif;
     cursor: pointer;
-    margin-top: 10px;
-    font-size: 25px;
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    width: 20vw;
+}
+
+.TeacherButton {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    border: none;
+    width: 20vw;
 }
 
 body, html {
@@ -58,5 +71,16 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
+    animation: colorchange 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes colorchange {
+    0% {background: red;}
+    20% {background: orange;}
+    40% {background: yellow;}
+    60% {background: green;}
+    80% {background: blue;}
+    100% {background: purple;}
 }
 

@@ -1,22 +1,21 @@
-<!-- static/public/index.html -->
+<!-- static/porta/teacherLogin.html -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>klauser</title>
+    <title>Quizzler</title>
     <link rel="stylesheet" type="text/css" href="static/css/index.css">
     <link rel="stylesheet" type="text/css" href="static/css/result.css">
 </head>
 <body>
     <div class="center-screen">
         <form id="pinForm">
-            <h1 id="title">hey, teacher.</h1>
+            <h1 id="title">quizzler</h1>
             <div class="center-screen-box">
-                <input type="text" id="pin" name="pin" pattern="\d{6}" required>
-                <input type="submit" value="submit">
-                <span id="result"></span>
+                <button id="StudentButton" class="StudentButton">student</button>
+                <br>
+                <button id="TeacherButton" class="TeacherButton">teacher</button>
             </div>
         </form>
     </div>
-    <script src="static/scripts/index.js"></script>
 </body>
 </html>

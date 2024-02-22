@@ -13,7 +13,7 @@ document.getElementById('connectForm').addEventListener('submit', function(event
     .then(response => response.json())
     .then(data => {
         if (data.success) {
-            window.location.href = '/static/portal/dashboard/index.html';
+            window.location.href = '/static/portal/dashboard/dashboard.html';
         } else {
             alert('Incorrect pin');
         }

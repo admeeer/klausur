@@ -1,0 +1,78 @@
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    animation: colorchange 10s infinite;
+    animation-timing-function: linear;
+    color: white;
+}
+
+@keyframes colorchange {
+    0% {background: red;}
+    20% {background: orange;}
+    40% {background: yellow;}
+    60% {background: green;}
+    80% {background: blue;}
+    100% {background: purple;}
+}
+
+#title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    background: linear-gradient(to right, white 50%, black 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.center-screen-box {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.StudentButton {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    width: 20vw;
+}
+
+.TeacherButton {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    border: none;
+    width: 20vw;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    animation: colorchange 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes colorchange {
+    0% {background: red;}
+    20% {background: orange;}
+    40% {background: yellow;}
+    60% {background: green;}
+    80% {background: blue;}
+    100% {background: purple;}
+}
+

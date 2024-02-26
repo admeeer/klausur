@@ -2,23 +2,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>klauser</title>
+    <title>quizzler | dashboard</title>
     <link rel="stylesheet" type="text/css" href="/static/css/dashboard.css">
+
+</head>
 </head>
 
 <body>
-    <div>
-        <header>
-            <h1 class="title">quizzler</h1>
-        </header>
+    <div class="sidebar">
+        <h1 class="title">quizzler</h1>
+        <ul>
+            <li><button id="quizzlersButton">Quizzlers</button></li>
+            <li><button>Reports</button></li>
+        </ul>
     </div>
+
+    <div class="sidebar list">
+        <ul>
+        </ul>
+    </div>
+
+
     <div class="center-screen">
         <h1 class="title">quiz</h1>
-            <div class="center-screen-box">
-                <input type="text" id="pin" name="pin" pattern="\d{6}" required>
-                <input type="submit" value="submit">
-                <span id="result"></span>
-            </div>
     </div>
+    <script src="/scripts/dashboardGetQuizzlers.js"></script>
 </body>
 </html>

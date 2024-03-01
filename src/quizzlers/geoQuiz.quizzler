@@ -1,1 +1,31 @@
-{}
+{
+  "quizTitle": "Rock Solid Geography",
+  "questions": [
+    {
+      "type": "single choice",
+      "time": 30,
+      "question": "Which is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "answers": ["Pacific Ocean"]
+    },
+    {
+      "type": "true false",
+      "time": 30,
+      "question": "The Sahara Desert is the largest desert in the world.",
+      "answers": true
+    },
+    {
+      "type": "multiple choice",
+      "time": 30,
+      "question": "Which continents does the Equator pass through?",
+      "options": ["Africa", "Asia", "Australia", "South America", "Europe"],
+      "answers": ["Africa", "South America"]
+    },
+    {
+      "type": "drag and drop",
+      "time": 30,
+      "question": "Drag rock types to their classification!",
+      "pairs": [["Granite", "Igneous"], ["Shale", "Sedimentary"], ["Marble", "Metamorphic"]]
+    }
+  ]
+}

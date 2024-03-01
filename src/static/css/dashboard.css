@@ -1,25 +1,27 @@
+
 .center-screen {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+   /* align-items: center;*/
     height: 100vh;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
     flex-grow: 1;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
 .title{
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
-    color: #46178F;
+    color: black;
     display: inline-block;
 }
 
 .center-screen-box {
     display: inline-block;
     justify-content: center;
-    align-items: center;
+   /* align-items: center;*/
     text-align: center;
 }
 
@@ -50,6 +52,7 @@
 html {
     background-color: rgb(250, 250, 250);
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 body {
     display: flex;
@@ -66,6 +69,11 @@ body {
     font-size: 25px;
 }
 
+.sidebar.list {
+    height: 100vh;
+    overflow-y: auto;
+}
+
 .sidebar ul {
     list-style-type: none; /* This removes the bullet points */
     padding: 0; /* This removes the default padding */
@@ -75,4 +83,22 @@ body {
 
 .sidebar ul li {
     padding: 0; /* This removes any default padding on list items */
+}
+
+.question-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+.question-type {
+    text-align: left;
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+.question-text {
+    justify-self: center;
 }
